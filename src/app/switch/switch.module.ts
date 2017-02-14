@@ -1,3 +1,4 @@
+import { SwitchComponent } from './switch.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
@@ -5,6 +6,7 @@ import { CommonModule } from '@angular/common';
   imports: [
     CommonModule
   ],
-  declarations: []
+  exports: [SwitchComponent],
+  declarations: [SwitchComponent]
 })
 export class SwitchModule { }
